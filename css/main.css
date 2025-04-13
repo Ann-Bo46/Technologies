@@ -1,0 +1,442 @@
+body,
+html {
+    font-family: 'Evolventa Regular';
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.img-rounded {
+    border-radius: 30px;
+}
+
+.card {
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+}
+
+.card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+.card-button {
+    transform: translate(-50%, 125%);
+    border-radius: 1rem;
+    border: none;
+    background-color: #081f5c;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.card-button:hover {
+    color: #fff;
+}
+
+.card:hover {
+    border-color: #081f5c;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+
+hr {
+    border: 1px solid #081f5c;
+}
+
+.link {
+    padding: 5px 8px;
+    text-decoration: none;
+    border: 1px solid #000000;
+    color: #222;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.link:hover {
+    background-color: #1365b8;
+    color: #fff;
+    box-shadow: -20px 50px 50px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 8px 18px;
+}
+
+.video {
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, #BCE6FF, #015C92 50%, #2D82B5);
+}
+
+.main-unit {
+    background-color: #c3dceb;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.main-unit-2 {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #DBE1E8;
+}
+
+.main-unit-21 {
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #DBE1E8;
+}
+
+.main-unit-22 {
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #DBE1E8;
+}
+
+.main-unit-23 {
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #DBE1E8;
+}
+
+.main-unit-3 {
+    padding: 20px;
+    border-radius: 20px;
+    border: #081f5c solid 3px;
+}
+
+.main-unit-31 {
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: #081f5c solid 3px;
+    border-left: #081f5c solid 3px;
+    border-right: #081f5c solid 3px;
+}
+
+.main-unit-32 {
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: #081f5c solid 3px;
+    border-left: #081f5c solid 3px;
+    border-right: #081f5c solid 3px;
+    background-color: #c2d4df;
+}
+
+.main-unit-33 {
+    padding: 20px;
+    border-radius: 20px;
+    border: #081f5c solid 3px;
+    background-color: #c2d4df;
+}
+
+.main-unit-34 {
+    padding: 20px;
+    border-bottom: solid #081f5c;
+    border-right: solid #081f5c;
+    border-bottom-right-radius: 20px;
+}
+
+.main-unit-4 {
+    padding: 15px;
+    border-radius: 30px;
+    background: #fafafa;
+    box-shadow: 20px 20px 60px #a2c0d4,
+        -20px -20px 60px #ffffff;
+}
+
+.photo {
+    background-color: #ffffff;
+    border: #000000 solid 3px;
+    width: 300px;
+    height: 300px;
+}
+
+.navigation-section {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation-section:hover {
+    color: rgb(163, 169, 178);
+    text-decoration: underline;
+}
+
+.bottom {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.btn-1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-1:hover {
+    background-color: #97CADB;
+    box-shadow: 0px 15px 20px #648792;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.btn-1:active {
+    transform: translateY(-1px);
+}
+
+.active {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, #fff, #9ccce9 50%, #438199);
+    border: solid #000 2px;
+}
+
+.active:hover {
+    color: #363636;
+    background-image: linear-gradient(144deg, #438199, #9ccce9 50%, #fff);
+}
+
+.height {
+    min-height: 60vh;
+}
+
+.author {
+    text-decoration: none;
+    color: rgb(142, 140, 140);
+}
+
+.author:hover {
+    text-decoration: underline;
+    color: rgb(142, 140, 140);
+}
+
+.page-header {
+    background-color: #34596b;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: #081f5c solid 4px;
+    border-left: #081f5c solid 4px;
+    border-right: #081f5c solid 4px;
+    width: 100%;
+    height: 600px;
+}
+
+.img-rounded-author {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.title {
+    color: #081f5c;
+    text-align: center;
+}
+
+.element-ogl {
+    color: #081f5c;
+    text-decoration: none;
+    list-style-type: circle;
+}
+
+
+kbd {
+    background-color: #354268;
+    border-radius: 10px;
+}
+
+
+.w-40 {
+    width: 40%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+
+footer {
+    background-color: #b9d9ec;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.social-button {
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #00000027;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.social-button:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 6px 3px #00000027;
+}
+
+.whatsapp {
+    background-color: #2cb742;
+}
+
+.whatsapp:hover {
+    color: #2cb742;
+}
+
+.tg {
+    background-color: #27a7e7;
+}
+
+.tg:hover {
+    color: #27a7e7;
+}
+
+.vk {
+    background-color: #4d7198;
+}
+
+.vk:hover {
+    color: #4d7198;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #081f5c;
+    font-size: 30px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.video-rt {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 35px;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.08),
+        -4px -4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.video-rt:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1),
+        -4px -4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.video-rt-image-container {
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-rt-title {
+    margin: 0;
+    font-weight: 600;
+    color: rgb(1, 127, 158);
+    cursor: default;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+}
+
+.video-rt-des {
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    margin: 0;
+    color: #1797b8;
+    cursor: default;
+}
+
+.circular {
+    border-radius: 50%;
+    transition: all 0.3s;
+    width: 3s00px;
+    height: 300px;
+}
+
+.circular:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1),
+        -4px -4px 12px rgba(0, 0, 0, 0.08);
+}
+
+@font-face {
+    font-family: 'Evolventa Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Evolventa Regular'), url('/fonts/Evolventa-Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Evolventa Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Evolventa Oblique'), url('/fonts/Evolventa-Oblique.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Evolventa Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Evolventa Bold'), url('/fonts/Evolventa-Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Evolventa Bold Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Evolventa Bold Oblique'), url('/fonts/Evolventa-BoldOblique.woff') format('woff');
+}
